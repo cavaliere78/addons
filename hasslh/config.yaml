@@ -1,8 +1,8 @@
 name: Sslh add-on
-version: "1.5.3"
-slug: ha_sslh
+version: "1.5.4"
+slug: hasslh
 description: Sslh add-on
-url: "https://github.com/cavaliere78/addons/tree/main/ha_sslh"
+url: "https://github.com/cavaliere78/addons/tree/main/hasslh"
 arch:
   - armhf
   - armv7
@@ -16,4 +16,4 @@ options:
   message: "Hello world2..."
 schema:
   message: "str?"
-image: "cavaliere78/{arch}-addon-ha_sslh"
+image: "cavaliere78/{arch}-addon-hasslh"
