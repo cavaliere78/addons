@@ -15,5 +15,5 @@ map:
 options:
   sslh_opts: "-f --user root --listen 0.0.0.0:443 --ssh 192.168.1.120:22 --anyprot 192.168.1.120:4443"
 schema:
-  message: "str?"
+  sslh_opts: "str?"
 image: "cavaliere78/{arch}-addon-hasslh"
