@@ -13,7 +13,7 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
+  message: "Hello world2..."
 schema:
   message: "str?"
 image: "cavaliere78/{arch}-addon-ha_sslh"
