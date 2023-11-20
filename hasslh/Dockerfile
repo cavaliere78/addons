@@ -9,3 +9,8 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
+# Fix permission
+RUN chmod +x /etc/services.d/hasslh/run
+RUN chmod +x /etc/services.d/hasslh/finish
+RUN chmod +x /usr/bin/my_program
+
