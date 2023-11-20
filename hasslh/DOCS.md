@@ -2,9 +2,13 @@
 
 ## How to use
 
-This add-on really does nothing. It is just an example.
+This add-on provide a sslh Demux.
+Fill the sslh_opts configuration options.
+the default value is
+sslh_opts: "-f --user root --listen 0.0.0.0:443 --ssh 192.168.1.120:22 --anyprot 192.168.1.120:4443"
 
-When started it will print the configured message or "Hello world" in the log.
-
-It will also print "All done!" in `/share/example_addon_output.txt` to show
-simple example of the usage of `map` in addon config.
+-f                               ==> foreground mode     -- DO NOT CHANGE -- 
+--user root                      ==> user used by sslh   -- DO NOT CHANGE -- 
+--listen 0.0.0.0:443             ==> listen port         -- DO NOT CHANGE -- 
+--ssh 192.168.1.120:22           ==> ssh server:port     
+--anyprot 192.168.1.120:4443     ==> others protocoll server
