@@ -6,8 +6,7 @@ It can demix the input traffic to a specific server:port basing on the protocoll
 
 #### Installation
 Add below repository to your Home assitant:\
-    https://github.dev/cavaliere78/addons/
-
+    https://github.com/cavaliere78/addons 
 #### Configuration
 
 In the configuration fill the sslh_opts oprions with a valid option strig for sslh.\
