@@ -7,8 +7,7 @@ FROM $BUILD_FROM
 #    curl -sSLf -o /usr/bin/tempio \
 #    "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_${BUILD_ARCH}"
 
-#RUN apk add --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ sslh
-RUN apk add --no-cache sslh
+RUN apk add --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ sslh
 
 # Copy root filesystem
 COPY rootfs /
