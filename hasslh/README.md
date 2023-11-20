@@ -2,8 +2,8 @@
 
 _This add-on provide a sslh Demux_
 
-Fill the sslh_opts configuration options.
-the default value is
+Fill the sslh_opts configuration options.\
+The default value is
 sslh_opts: "-f --user root --listen 0.0.0.0:443 --ssh 192.168.1.120:22 --anyprot 192.168.1.120:4443"
 
 -f                               ==> foreground mode     -- DO NOT CHANGE -- 
