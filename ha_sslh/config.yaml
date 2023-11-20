@@ -1,5 +1,5 @@
 name: Sslh add-on
-version: "1.5.1"
+version: "1.5.2"
 slug: ha_sslh
 description: Sslh add-on
 url: "https://github.com/cavaliere78/addons/tree/main/ha_sslh"
