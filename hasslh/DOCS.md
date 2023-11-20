@@ -1,7 +1,18 @@
 # Home Assistant Add-on: sslh add-on
 
 ## This add-on provide a sslh Demux.
-_Fill the sslh_opts configuration options. !_\
+This addon provide a sslh demux
+It can demix the input traffic to a specific server:port basing on the protocoll used in the incoming request.
+
+#### Installation
+    Add repository the repository:
+        https://github.dev/cavaliere78/addons/
+    to your Home assitant
+
+#### Configuration
+
+In the con 
+Fill the sslh_opts configuration options. !_\
 the default value is
 sslh_opts: "-f --user root --listen 0.0.0.0:443 --ssh 192.168.1.120:22 --anyprot 192.168.1.120:4443"
 
