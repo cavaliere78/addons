@@ -1,3 +1,5 @@
+## 1.6.0
+update sslh version
 ## 1.5.9
 add port mapping
 ## 1.5.8

@@ -1,7 +1,7 @@
 name: Sslh add-on
-version: "1.5.9"
+version: "1.6.0"
 slug: hasslh
-description: Sslh add-on
+description: sslh add-on
 url: "https://github.com/cavaliere78/addons/tree/main/hasslh"
 arch:
   - armhf
