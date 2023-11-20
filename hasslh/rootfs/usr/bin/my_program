@@ -1,3 +1,6 @@
-#!/bin/bash
-
-echo "All done!" > /share/example_addon_output.txt
+#!/usr/bin/with-contenv bashio
+set -e
+# Create main config
+SSLH_OPTS=$(bashio::config 'sslh_opts')
+bashio::log.info "Starting sslh with otions: ${SSLH_OPTS}"
+sslh ${SSLH_OPTS} 

@@ -10,10 +10,10 @@
 declare message
 
 ## Get the 'message' key from the user config options.
-message=$(bashio::config 'message')
+message=$(bashio::config 'sslh_opts')
 
-## Print the message the user supplied, defaults to "Hello World..."
-bashio::log.info "${message:="Hello World..."}"
+## Print the configuration the user supplied
+bashio::log.info "${message:="missing configuration"}"
 
 ## Run your program
 exec /usr/bin/my_program
