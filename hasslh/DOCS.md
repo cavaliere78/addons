@@ -5,7 +5,7 @@ This addon provide a sslh demux
 It can demix the input traffic to a specific server:port basing on the protocoll used in the incoming request.
 
 #### Installation
-Add below repository to your Home assitant: /
+Add below repository to your Home assitant:\
     https://github.dev/cavaliere78/addons/
 
 #### Configuration
