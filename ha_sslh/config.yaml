@@ -2,7 +2,7 @@ name: Sslh add-on
 version: "1.5.0"
 slug: ha_sslh
 description: Sslh add-on
-url: "https://github.com/home-assistant/addons-ha_sslh/tree/main/example"
+url: "https://github.com/cavaliere78/addons/tree/main/ha_sslh"
 arch:
   - armhf
   - armv7
