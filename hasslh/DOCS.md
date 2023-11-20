@@ -1,9 +1,7 @@
 # Home Assistant Add-on: sslh add-on
 
-## How to use
-
-This add-on provide a sslh Demux.
-Fill the sslh_opts configuration options.
+## This add-on provide a sslh Demux.
+_Fill the sslh_opts configuration options. !_\
 the default value is
 sslh_opts: "-f --user root --listen 0.0.0.0:443 --ssh 192.168.1.120:22 --anyprot 192.168.1.120:4443"
 
